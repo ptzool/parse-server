@@ -1,6 +1,6 @@
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hello world!');
-});
+})
 
 Parse.Cloud.beforeSave('BeforeSaveFailure', function(req, res) {
   res.error('You shall not pass!');
